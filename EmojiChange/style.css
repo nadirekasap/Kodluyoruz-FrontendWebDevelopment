@@ -1,0 +1,33 @@
+/*generel*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/01.jpg);
+    background-size: cover;
+   /*Responsive*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.emoji{
+    font-size: 10rem;
+    user-select: none; /* don't get selected */
+    cursor: pointer;
+}
+
+.emojiclosed{
+    display:none; /*invisible*/
+}
+
+.emojiopen{
+    display:none; 
+}
+
+.active{
+    display:block;/*visible*/
+}
