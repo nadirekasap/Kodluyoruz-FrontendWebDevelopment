@@ -4,6 +4,8 @@
 
 ### Projects 
 - EmojiChange : <em>Emoji toggle on or off.</em>
+- HoverCircle : <em>Circle maximize and minimize with hoover command.</em>
+
 
 ### Used Technologies
 - HTML
